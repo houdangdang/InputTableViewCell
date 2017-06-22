@@ -319,8 +319,8 @@ static const CGFloat titleWidth      = 80.0;
     if (!self.text) return;
     CGSize textSize = [self.text boundingRectWithSize:CGSizeMake(self.frame.size.width, MAXFLOAT)
                                               options:NSStringDrawingUsesLineFragmentOrigin |
-                       NSStringDrawingTruncatesLastVisibleLine |
-                       NSStringDrawingUsesFontLeading
+                                                      NSStringDrawingTruncatesLastVisibleLine |
+                                                      NSStringDrawingUsesFontLeading
                                            attributes:@{NSFontAttributeName : self.font}
                                               context:nil].size;
     

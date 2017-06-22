@@ -56,7 +56,7 @@
  *  输入框限制
  *
  *  @param length 限制输入的最大长度
- *  @param allowString 允许输入的字符集
+ *  @param allowString 允许输入的字符集,值为nil或空时表示允许任何字符
  *  @param character 输入框每次输入的单个字符
  *
  *  @return bool value
