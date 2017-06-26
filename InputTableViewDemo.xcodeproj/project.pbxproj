@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96400C131F00A492006AFFCA /* screenshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96400C121F00A492006AFFCA /* screenshot.jpg */; };
+		96400C151F00A4AD006AFFCA /* inputTest.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96400C141F00A4AD006AFFCA /* inputTest.gif */; };
 		969799661EF7A28200EABB66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 969799651EF7A28200EABB66 /* main.m */; };
 		969799691EF7A28200EABB66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 969799681EF7A28200EABB66 /* AppDelegate.m */; };
 		9697996C1EF7A28200EABB66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9697996B1EF7A28200EABB66 /* ViewController.m */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96400C121F00A492006AFFCA /* screenshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screenshot.jpg; sourceTree = "<group>"; };
+		96400C141F00A4AD006AFFCA /* inputTest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = inputTest.gif; sourceTree = "<group>"; };
 		969799611EF7A28200EABB66 /* InputTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		969799651EF7A28200EABB66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		969799671EF7A28200EABB66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96400C111F00A492006AFFCA /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				96400C141F00A4AD006AFFCA /* inputTest.gif */,
+				96400C121F00A492006AFFCA /* screenshot.jpg */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		969799581EF7A28200EABB66 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +120,7 @@
 		969799631EF7A28200EABB66 /* InputTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				96400C111F00A492006AFFCA /* screenshots */,
 				969799971EF7B88C00EABB66 /* InputTableViewCell */,
 				969799671EF7A28200EABB66 /* AppDelegate.h */,
 				969799681EF7A28200EABB66 /* AppDelegate.m */,
@@ -265,9 +279,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96400C151F00A4AD006AFFCA /* inputTest.gif in Resources */,
 				969799741EF7A28200EABB66 /* LaunchScreen.storyboard in Resources */,
 				969799711EF7A28200EABB66 /* Assets.xcassets in Resources */,
 				9697996F1EF7A28200EABB66 /* Main.storyboard in Resources */,
+				96400C131F00A492006AFFCA /* screenshot.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +546,7 @@
 				969799901EF7A28200EABB66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969799911EF7A28200EABB66 /* Build configuration list for PBXNativeTarget "InputTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +555,7 @@
 				969799931EF7A28200EABB66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969799941EF7A28200EABB66 /* Build configuration list for PBXNativeTarget "InputTableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +564,7 @@
 				969799961EF7A28200EABB66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
