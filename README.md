@@ -4,4 +4,4 @@
 
 基本覆盖常规输入框的样式
 
-![image](https://github.com/HoHoDoDo/InputTableViewCell/blob/master/InputTableViewDemo/screenshots/screenshot.jpg)
+![image](https://github.com/HoHoDoDo/InputTableViewCell/blob/master/InputTableViewDemo/screenshots/inputTest.gif?raw=true)
