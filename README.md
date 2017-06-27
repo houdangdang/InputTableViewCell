@@ -92,7 +92,7 @@
 }
 ```
 * 输入框编辑时的代理
-```
+```Objective-C
 - (void)hd_inputTableViewCell:(HDInputTableViewCell *)cell textFieldEditingChanged:(NSString *)value {
 
     if ([cell.event isEqualToString:@"cell.type.id"]) {
@@ -110,7 +110,7 @@
 ```
 
 * 输入框编辑时控制输入框输入的代理
-```
+```Objective-C
 - (BOOL)hd_inputTableViewCell:(HDInputTableViewCell *)cell textFieldShouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
 
     BOOL result = YES;
