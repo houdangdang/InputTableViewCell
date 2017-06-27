@@ -83,13 +83,16 @@
 
 ### cell代理
 
+* cell点击事件代理
 ```Objective-C
 - (void)hd_inputTableViewCell:(HDInputTableViewCell *)cell didSelectEvent:(NSString *)event {
     if ([cell.event isEqualToString:@"cell.type.bank.name"]) {
         NSLog(@"选择银行");
     }
 }
-
+```
+* 输入框编辑时的代理
+```
 - (void)hd_inputTableViewCell:(HDInputTableViewCell *)cell textFieldEditingChanged:(NSString *)value {
 
     if ([cell.event isEqualToString:@"cell.type.id"]) {
@@ -104,7 +107,10 @@
         self.amount = value;
     }
 }
+```
 
+* 输入框编辑时控制输入框输入的代理
+```
 - (BOOL)hd_inputTableViewCell:(HDInputTableViewCell *)cell textFieldShouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
 
     BOOL result = YES;
