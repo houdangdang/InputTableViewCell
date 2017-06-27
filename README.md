@@ -6,7 +6,7 @@
 
 ![image](https://github.com/HoHoDoDo/InputTableViewCell/blob/master/InputTableViewDemo/screenshots/inputTest.gif?raw=true)
 
-# 创建数据源
+#### 创建数据源
 
 ```Objective-C
 - (NSMutableArray *)dataSources {
@@ -65,9 +65,9 @@
         }
     }
     return _dataSources;
-} //Objective-C
+}
 ```
-# tableView代理
+#### tableView代理
 
 ```Objective-C
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -78,10 +78,10 @@
     [cell setObject:self.dataSources[indexPath.row]];
     return cell;
 
-} //Objective-C
+}
 ```
 
-# cell代理
+#### cell代理
 
 ```Objective-C
 - (void)hd_inputTableViewCell:(HDInputTableViewCell *)cell didSelectEvent:(NSString *)event {
@@ -124,6 +124,6 @@
         }
     }
     return result;
-} //Objective-C
+}
 ```
 
