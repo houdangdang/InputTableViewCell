@@ -6,9 +6,9 @@
 
 ![image](https://github.com/HoHoDoDo/InputTableViewCell/blob/master/InputTableViewDemo/screenshots/inputTest.gif?raw=true)
 
-#创建数据源
+# 创建数据源
 
-```
+```Objective-C
 - (NSMutableArray *)dataSources {
 
     if (!_dataSources) {
@@ -65,11 +65,11 @@
         }
     }
     return _dataSources;
-}
+} //Objective-C
 ```
-#tableView代理
+# tableView代理
 
-```
+```Objective-C
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
     HDInputTableViewCell *cell = [HDInputTableViewCell hd_initInputTableViewCellWithTableView:tableView
@@ -78,12 +78,12 @@
     [cell setObject:self.dataSources[indexPath.row]];
     return cell;
 
-}
+} //Objective-C
 ```
 
-#cell代理
+# cell代理
 
-```
+```Objective-C
 - (void)hd_inputTableViewCell:(HDInputTableViewCell *)cell didSelectEvent:(NSString *)event {
     if ([cell.event isEqualToString:@"cell.type.bank.name"]) {
         NSLog(@"选择银行");
@@ -124,6 +124,6 @@
         }
     }
     return result;
-}
+} //Objective-C
 ```
 
